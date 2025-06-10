@@ -19,7 +19,7 @@ public class UserController {
 
     @GetMapping("/")
     public String home() {
-        return "home"; // This will render home.html
+        return "home";
     }
 
     // List users
